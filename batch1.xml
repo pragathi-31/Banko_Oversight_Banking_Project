@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Suite">
+  <test thread-count="5" parallel="methods" name="Test">
+    <classes>
+      <class name="com.applyDebitCard.module.ApplyDebitCardTest"/>
+      <class name="com.creditCustomer.module.CreditCustomerTest"/>
+      <class name="com.openAccount.module.OpenAccountSmokeTest"/>
+      <class name="com.internetBanking.module.InternetBankingTest"/>
+      <class name="com.openAccount.module.OpenAccountEndToEndTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
